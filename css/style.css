@@ -1,0 +1,110 @@
+body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.container{
+    width: 100%; 
+    max-width: 1000px;
+    border: 1px solid #000;
+    height: 802px;
+    margin: 0% auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header .logo, .right_side {
+    display: inline-flex;
+
+}
+.right_side li{
+    display: inline-flex;
+    border: 1px solid #000;
+    padding: 5px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center; 
+    
+}
+ul {
+    list-style-type: none;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: flex;
+}
+h1{
+    font-size: 32px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+.gendiv, .imgdiv, .formdiv {
+    display: inline-flex;
+    flex-direction: column;
+}
+.imgdiv img{width: 73px; height: 125px;}
+#h2_heading {
+    font-size: 19px;
+    background-color: #ff0000;
+    display: inline-block;
+    color: #fff;
+    padding: 5px;
+    width: 300px;
+}
+
+.formdiv{
+    width: 390px;
+}
+#form_title{
+    font-size: 21px;
+    font-weight: 300;
+    color: #000;
+}
+.formbg{
+    background-color: rgb(233, 30, 30);
+    padding: 10px;
+    border-radius: 10px;
+}
+.formbg input, .formbg select, .formbg textarea{
+    width: 100%;
+    border-radius: 10px;
+    color: #000;
+    font-size: 13px;
+
+}
+.formbg textarea{
+    height: 80px;
+}
+.formbg input, .formbg select{
+    height: 40px;
+    
+}
+.formbg button{
+    width: 135px;
+    height: 42px;
+    display: inline-block;
+    background-color:  #163147;
+    border-radius: 3px;
+    border: 0;
+    font-weight: 700;
+    font-size: 21px;
+    color: #fff;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.formbg p span{
+    color: #fff;
+    font-size: 12px;
+    display: inline-flex;
+}
+.formbg p{
+    display: flex;
+    align-items: center; 
+}
+
